@@ -1,0 +1,122 @@
+.login-header {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.login-header h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-bottom: 0.5rem;
+}
+
+.login-header p {
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.input-group {
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-main);
+    padding-left: 2px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    /* Padding badha di taaki input "breathable" lage */
+    padding-right: 3rem;
+    /* Icon ke liye space */
+    border: 1.5px solid var(--border-color);
+    border-radius: 12px;
+    /* Thode rounded corners modern lagte hain */
+    background-color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.input-wrapper input:focus {
+    border-color: var(--brand-color);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.1);
+}
+
+.input-icon {
+    position: absolute;
+    right: 1rem;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1.1rem;
+    background-color: var(--brand-color);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3);
+    /* Button par halka shadow */
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(230, 57, 70, 0.4);
+}
+
+.auth-footer {
+    margin-top: 1.2rem;
+    text-align: center;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.auth-footer a {
+    color: var(--brand-color);
+    font-weight: 600;
+    text-decoration: none;
+}
+/* Error Text Style */
+.error-text {
+    color: #E63946;
+    font-size: 0.72rem;
+    margin-top: 0.3rem;
+    display: block;
+    line-height: 1.2;
+}
+
+/* Success Message Style */
+.success-msg {
+    color: #27AE60;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.error-msg-server {
+    color: #E63946;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}

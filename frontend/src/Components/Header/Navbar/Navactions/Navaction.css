@@ -1,0 +1,71 @@
+.nav-action {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-auth-section {
+  display: flex;
+  align-items: center;
+}
+
+.signin-btn {
+  background-color: var(--brand-color);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.signin-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.nav-cart {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.nav-cart:hover {
+  color: var(--brand-color);
+}
+
+.cart-icon-container {
+  position: relative;
+  display: flex;
+  align-items: centers;
+}
+
+.cart-icon-container i {
+  font-size: 24px;
+}
+
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: var(--brand-color);
+  color: white;
+  font-family: var(--font-main);
+  font-size: 10px;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.nav-line-2 {
+    font-family: var(--font-heading);
+    font-size: 14px;
+    font-weight: 500;
+}

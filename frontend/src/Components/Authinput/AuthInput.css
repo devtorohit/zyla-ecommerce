@@ -1,0 +1,87 @@
+.input-group {
+    margin-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-main);
+    padding-left: 2px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    padding-right: 3rem;
+    border: 1.5px solid var(--border-color);
+    border-radius: 12px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.input-wrapper input:focus {
+    outline: none;
+    border-color: var(--brand-color);
+    box-shadow: 0 0 0 4px rgba(230, 57, 70, 0.1);
+}
+
+.input-icon {
+    position: absolute;
+    right: 1rem;
+    color: var(--text-muted);
+    font-size: 1.2rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--brand-color);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(230, 57, 70, 0.3);
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(230, 57, 70, 0.4);
+}
+
+.error-text {
+    color: #E63946;
+    font-size: 0.72rem;
+    margin-top: 0.3rem;
+    display: block;
+    line-height: 1.2;
+}
+
+.success-msg {
+    color: #27AE60;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.error-msg {
+    color: #E63946;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
